@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+  <title>Поддержка клиентов Bosch - официальный сайт</title>
+  <meta name="description"
+    content="Информация для клиентов Bosch : гарантии, облачное управление, обслуживание и ремонт. Наша справочно-сервисная служба поможет решить любые задачи, связанные с технической поддержкой." />
+  <meta property="og:url" content="https://air-bosch.com/support/" />
+  <meta property="og:site_name" content="Bosch" />
+  <meta property="og:title" content="Поддержка клиентов Bosch - официальный сайт" />
+  <meta property="og:description"
+    content="Информация для клиентов Bosch : гарантии, облачное управление, обслуживание и ремонт. Наша справочно-сервисная служба поможет решить любые задачи, связанные с технической поддержкой." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/h/assets/img/share.jpg" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" href="/favicon.ico">
+  <!-- <link rel="stylesheet" href="https://air-bosch.com//frontend/build/css/style.css?cache=1.07"> -->
+  <link rel="stylesheet" href="original/style.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+      m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+      m[i].l = 1 * new Date();
+      for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+      k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(94076883, "init", {
+      clickmap: true,
+      trackLinks: true,
+      accurateTrackBounce: true,
+      webvisor: true
+    });
+  </script>
+  <noscript>
+    <div><img src="https://mc.yandex.ru/watch/94076883" style="position:absolute; left:-9999px;" alt="" /></div>
+  </noscript>
+  <!-- /Yandex.Metrika counter -->
+
+  <script
+    type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Corporation","name":"Bosch","url":"https:\/\/air-bosch.com\/","logo":"https:\/\/air-bosch.com\/frontend\/build\/images\/logo.svg","sameAs":["https:\/\/vk.com\/daichiair","https:\/\/www.youtube.com\/channel\/UC7W3_lLzqY2BBYt_kuCRwXg"]}</script>
+
+
+  <div itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Air-Bosch">
+    <meta itemprop="description"
+      content="Air-Bosch - климатическое оборудование для дома, квартиры и офисов. Современные технологии, онлайн-управление, эффективный расход электроэнергии и долгий срок службы.">
+    <meta itemprop="image" content="https://air-bosch.com/frontend/build/img/logo.svg">
+    <meta itemprop="telephone" content="+7 (495) 737‑37‑33">
+    <span itemprop="email" content="info@daichi.ru">
+
+      <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <meta itemprop="streetAddress" content="Звенигородское ш. д 9/27">
+        <meta itemprop="addressLocality" content="Москва">
+        <meta itemprop="addressRegion" content="Москва">
+      </div>
+  </div>
+
+
+
+  <div class="main">
+    <header class="header anime" data-app="header">
+      <div class="header__line"></div>
+      <div class="container">
+        <div class="header__container">
+          <div class="header__top">
+            <div class="header__logo">
+              <a href="/"><img src="https://air-bosch.com//frontend/build/img/logo.svg" alt="" /></a>
+            </div>
+
+
+            <div class="header__top-right for-desktop">
+
+
+
+              <div class="header__top-right-catalog">
+                <button class="header__catalog-btn"><span></span>Каталог</button>
+                <div class="header__catalog-drop">
+                  <ul class="header__menu__drop__menu">
+                    <li><a href="/catalog/bytovye-split-sistemy/">Бытовые сплит&#8209;системы</a></li>
+                    <li><a href="/catalog/sistemy-vrf/">VRF системы</a></li>
+                  </ul>
+                </div>
+              </div>
+              <script>
+                function openSearch() {
+                  var val = $('[name=q]').val();
+                  if (val.length > 0) {
+                    $('.header__search__close').addClass('show');
+                    if (val.length >= 3) {
+                      $.ajax({
+                        type: 'GET',
+                        url: '/ajax/search-items.php',
+                        data: {
+                          q: val
+                        },
+                        dataType: "json",
+                        processData: void 0,
+                        contentType: void 0,
+                        success: function (data) {
+                          if (data && data.results && data.results.length > 0) {
+                            $('.header__search-result-list').html('');
+                            for (i in data.results) {
+                              var item = data.results[i];
+                              $('.header__search-result-list').append('<li><a onclick="makeSearch(this)" href="javascript: void(0);">' + item.NAME + '</a></li>');
+                            }
+                            $('.header__search-result').addClass('show');
+                          }
+                        }
+                      })
+                    }
+                  }
+                  else {
+                    closeSearch();
+                  }
+                }
+
+                function makeSearch(href) {
+                  var q = $(href).html();
+                  $('.header__search-result').removeClass('show');
+                  document.location.href = '/search/?q=' + q;
+                }
+
+                function closeSearch() {
+                  $('.header__search-result').removeClass('show');
+                  $('.header__search__close').removeClass('show');
+                  $('[name=q]').val('');
+                }
+              </script>
+              <form class="header__search visible" action="/search/" data-app="form" method="get" data-type="submit">
+                <input autocomplete="off" onkeyup="openSearch()" class="header__search__field" type="text" name="q"
+                  placeholder="Поиск по сайту"
+                  data-validation='{"maxlength":300,"messages":{"required":"Введите поисковый запрос"}}' required />
+                <button class="header__search__submit" type="submit">
+                  <svg>
+                    <use xlink:href="./img/sprite.svg#search"></use>
+                  </svg>
+                </button>
+                <button onclick="closeSearch();" class="header__search__close" type="button">
+                  <svg>
+                    <use xlink:href="./img/sprite.svg#close-big"></use>
+                  </svg>
+                </button>
+                <div class="header__search-result">
+                  <ul class="header__search-result-list">
+                    <li><a href="#">1. Наружные блоки для систем VRF</a></li>
+                    <li><a href="#">MDCI — системы Mini VRF</a></li>
+                  </ul>
+                </div>
+              </form>
+            </div>
+
+            <a class="header__top-buy-btn btn btn-m for-desktop" href="/where-to-buy/">Где купить</a>
+
+            <button class="header__search-btn for-mobile">
+              <svg>
+                <use xlink:href="./img/sprite.svg#search"></use>
+              </svg>
+            </button>
+            <button class="header__burger for-mobile"><i></i><i></i><i></i></button>
+
+          </div>
+
+
+
+          <div class="header__bottom for-desktop">
+
+            <a class="header__bottom-location" href="#location" data-fancybox>
+              <svg>
+                <use xlink:href="./img/sprite.svg#location"></use>
+              </svg>
+              <span>Москва</span>
+            </a>
+            <ul class="header__menu for-desktop">
+              <li><a href="/about-brand/">О бренде</a></li>
+              <li><a href="/for-partners/">Партнёрам</a></li>
+              <li><a href="/support/">Поддержка</a></li>
+              <li><a href="/contacts/">Контакты</a></li>
+            </ul>
+            <a class="header__bottom-tel" href="tel:88002000005">
+              <svg>
+                <use xlink:href="./img/sprite.svg#tel"></use>
+              </svg>
+              8 800 200 00 05 </a>
+          </div>
+          <div class="modal header__location for-desktop">
+            <div class="h3 form__title">Ваш город — Москва?</div>
+            <div class="modal__footer">
+              <a class="btn-secondary" href="#location" data-fancybox>Выбрать другой</a>
+              <button class="btn header__location__confirm" type="button">Верно</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="mobile-menu for-mobile" data-app="mobile-menu">
+      <div class="mobile-menu__list">
+        <ul>
+          <li>
+            <a href="/catalog/bytovye-split-sistemy/">Каталог</a>
+            <ul>
+              <li><a href="/catalog/bytovye-split-sistemy/">Бытовые сплит‑системы</a></li>
+              <li><a href="/catalog/sistemy-vrf/">VRF системы</a></li>
+            </ul>
+          </li>
+          <li><a href="/about-brand/">О бренде</a></li>
+          <li><a href="/for-partners/">Партнёрам</a></li>
+          <li><a href="/support/">Поддержка</a></li>
+          <li><a href="/contacts/">Контакты</a></li>
+          <li><a href="/where-to-buy/">Где купить</a></li>
+        </ul>
+      </div>
+      <div class="mobile-menu__support">
+        <div class="mobile-menu__support__location">
+          <a href="#location" data-fancybox>
+            <svg>
+              <use xlink:href="./img/sprite.svg#location"></use>
+            </svg>
+            Москва </a>
+        </div>
+        <div class="mobile-menu__support__phone"><a href="tel:88002000005">8 800 200 00 05</a></div>
+        <div class="mobile-menu__support__text">Служба поддержки</div>
+      </div>
+      <div class="mobile-menu__button">
+        <a class="btn btn-m" href="#callback" data-fancybox>Обратная связь</a>
+      </div>
+    </div>
+    <div class="mobile-menu mobile-menu--search for-mobile" data-app="mobile-menu">
+      <div class="mobile-menu__search-header">
+        <form class="mobile-menu__search-form" action="search.html" method="get" data-type="submit">
+          <button class="mobile-menu__search-back" type="button">
+            <svg>
+              <use xlink:href="./img/sprite.svg#arrow-left"></use>
+            </svg>
+          </button>
+          <input class="mobile-menu__search-input" type="text" name="q" placeholder="Поиск по сайту"
+            data-validation='{"maxlength":300,"messages":{"required":"Введите поисковый запрос"}}' required />
+          <button class="header__search__close" type="button">
+            <svg>
+              <use xlink:href="./img/sprite.svg#close-big"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+      <div class="mobile-menu__search-popular">
+        <p class="mobile-menu__search-popular-title">Популярные запросы</p>
+        <ul>
+          <li><a href="#">Наружные блоки для систем VRF</a></li>
+          <li><a href="#">MDCI — системы Mini VRF</a></li>
+          <li><a href="#">Кассетные блоки для систем VRF</a></li>
+          <li><a href="#">Канальные блоки для систем VRF</a></li>
+          <li><a href="#">Консольные блоки для систем VRF</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+
+    <div class="content">
+      <div class="container">
+
+        <div class="breadcrumbs">
+          <ul>
+            <li>
+              <a href="/" title="Главная">
+                Главная </a>
+            </li>
+            <li title="Поддержка">
+              Поддержка </li>
+          </ul>
+        </div>
+
+        <script type="application/ld+json">
+{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"\u0413\u043b\u0430\u0432\u043d\u0430\u044f","item":"https:\/\/air-bosch.com\/"},{"@type":"ListItem","position":2,"name":"\u041f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0430","item":""}]}</script>
+
+        <div class="support-warranty anime">
+          <div class="support-warranty__head anime fadeUp">
+            <h1 class="page-title">Поддержка и&nbsp;гарантия</h1>
+            <div class="support-warranty__head__desc">
+              Для оборудования Bosch действуют специальные программы послепродажного обслуживания
+            </div>
+          </div>
+          <ul class="support-warranty__list anime fadeUp">
+            <li class="support-warranty__item">
+              <a href="/support/adv-materials/" class="support-warranty__link">
+                <div class="support-warranty__link-img"><img src="img/code-registration-image.png" alt="" />
+                </div>
+                <div class="support-warranty__link-text">Зарегистрировать гарантийный талон</div>
+              </a>
+            </li>
+            <li class="support-warranty__item">
+              <a href="/support/adv-materials/" class="support-warranty__link">
+                <div class="support-warranty__link-img"><img src="https://air-bosch.com//frontend/build/img/support-warranty-1.jpg" alt="" />
+                </div>
+                <div class="support-warranty__link-text">Рекламные материалы</div>
+              </a>
+            </li>
+            <li class="support-warranty__item">
+              <a href="/support/technical/" class="support-warranty__link">
+                <div class="support-warranty__link-img"><img src="https://air-bosch.com//frontend/build/img/support-warranty-2.jpg" alt="" />
+                </div>
+                <div class="support-warranty__link-text">Документация</div>
+              </a>
+            </li>
+            <li class="support-warranty__item">
+              <a href="/support/service-and-repair/" class="support-warranty__link">
+                <div class="support-warranty__link-img"><img src="https://air-bosch.com//frontend/build/img/support-warranty-3.jpg" alt="" />
+                </div>
+                <div class="support-warranty__link-text">Сервис и&nbsp;гарантия</div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container">
+          <div class="footer__left">
+            <div class="footer__contacts">
+              <div class="footer__logo">
+                <a href="/">
+                  <img src="https://air-bosch.com//frontend/build/img/logo.svg" alt="" />
+                </a>
+              </div>
+              <div class="footer__contacts__content">
+                <div class="footer__phone">
+                  <div class="footer__phone__number">
+                    <a href="tel:88002000005">
+                      8 800 200 00 05 </a>
+                  </div>
+                  <div class="footer__phone__label">
+                    Служба поддержки
+                  </div>
+                </div>
+                <div class="footer__callback">
+                  <a href="#callback" data-fancybox>
+                    <svg>
+                      <use xlink:href="./img/sprite.svg#comment"></use>
+                    </svg>
+                    Обратная связь
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer__right">
+            <div class="footer__menu">
+              <ul>
+                <li>
+                  <a href="/support/">
+                    Поддержка
+                  </a>
+                </li>
+                <li>
+                  <a href="/where-to-buy/">
+                    Где купить
+                  </a>
+                </li>
+                <li>
+                  <a href="/contacts/">
+                    Контакты
+                  </a>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <a href="/for-partners/">
+                    Для партнеров
+                  </a>
+                </li>
+                <li>
+                  <a href="/news/">
+                    Новости
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__catalog">
+              <div class="footer__catalog__title">
+                <a href="/catalog/">
+                  Каталог
+                </a>
+              </div>
+              <ul class="footer__catalog__list">
+                <li>
+                  <a href="/catalog/bytovye-split-sistemy/">
+                    Бытовые сплит&#8209;системы </a>
+                </li>
+                <li>
+                  <a href="/catalog/sistemy-vrf/">
+                    VRF системы </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer__container">
+          <ul class="footer__list footer__list--list">
+            <li class="for-desktop">
+              &copy; Bosch 2023 </li>
+            <li>
+              <a href="/privacy-policy/">
+                Политика конфиденциальности
+              </a>
+            </li>
+            <li>
+              <a href="/user-agreement/">
+                Пользовательское соглашение
+              </a>
+            </li>
+          </ul>
+          <ul class="footer__list footer__list--social">
+            <li>
+              <a href="https://vk.com/daichiair" target="_blank" rel="nofollow">
+                Вконтакте </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UC7W3_lLzqY2BBYt_kuCRwXg" target="_blank" rel="nofollow">
+                Youtube </a>
+            </li>
+          </ul>
+          <div class="footer__dev">
+            <span class="for-mobile">© Daichi 2021.</span>
+            <!--a href="https://itech-group.ru" target="_blank" rel="nofollow">
+                Разработано в ITECH
+            </a-->
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <div class="is-hidden">
+
+      <form class="modal form" id="vrf-select" action="/ajax/form-feedback.php" method="post" data-app="form"
+        data-event="Feedback">
+
+        <input type="hidden" name="formname" value="Подобрать систему VRF" />
+        <input type="hidden" name="referer" value="https://air-bosch.com" />
+        <input type="hidden" name="lang" value="ru" />
+        <input type="hidden" name="formid" value="FORM_GET_SYSTEM" />
+        <input type="hidden" name="model" value="" />
+
+        <div class="h3 form__title">Подобрать систему&nbsp;VRF</div>
+        <div class="form__text">
+          Наши специалисты обязательно помогут вам с&nbsp;подбором мультизональной системы для вашего объекта.
+          Оставьте ваши контакты и&nbsp;мы&nbsp;вам перезвоним.
+        </div>
+        <div class="form__subtitle">Укажите ваши контактные данные <span>*</span></div>
+        <div class="input">
+          <div class="input__label">Имя <span>*</span></div>
+          <div class="input__field">
+            <input type="text" name="firstname" data-name="firstname" />
+            <p class="input__error">Это поле необходимо заполнить.</p>
+          </div>
+        </div>
+        <div class="form__row">
+          <div class="form__col">
+            <div class="input">
+              <div class="input__label">E-mail <span>*</span></div>
+              <div class="input__field">
+                <input type="email" name="email" data-name="email" />
+                <p class="input__error">Неверный или некорректный e-mail адрес</p>
+              </div>
+            </div>
+          </div>
+          <div class="form__col">
+            <div class="input">
+              <div class="input__label">Телефон <span>*</span></div>
+              <div class="input__field">
+                <input class="phone" type="tel" data-name="tel" name="phone" />
+                <p class="input__error">Неверный номер телефона</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form__subtitle">Заполните информацию об&nbsp;объекте</div>
+        <div class="input" data-app="select" data-type="outside">
+          <div class="input__label">Тип объекта</div>
+          <div class="input__field">
+            <select name="object-type" data-placeholder="Не важно">
+              <option value="Не важно"></option>
+              <option value="Административные">Административные</option>
+              <option value="Банки">Банки</option>
+              <option value="Бизнес-центр">Бизнес-центр</option>
+              <option value="Гостиницы">Гостиницы</option>
+              <option value="Жилые">Жилые</option>
+              <option value="Здравоохранение">Здравоохранение</option>
+              <option value="Кафе">Кафе</option>
+              <option value="Культурные">Культурные</option>
+              <option value="Промышленные">Промышленные</option>
+              <option value="Рестораны">Рестораны</option>
+              <option value="Спортивные">Спортивные</option>
+              <option value="Торговые">Торговые</option>
+            </select>
+          </div>
+        </div>
+        <div class="form__row">
+          <div class="form__col">
+            <div class="input" data-app="select" data-type="outside">
+              <div class="input__label">Площадь объекта</div>
+              <div class="input__field">
+                <select name="object-square" data-placeholder="Не важно">
+                  <option value=""></option>
+                  <option value="10">10</option>
+                  <option value="20">20</option>
+                  <option value="30">30</option>
+                  <option value="40">40</option>
+                  <option value="50">50</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="form__col">
+            <div class="input" data-app="select" data-type="outside">
+              <div class="input__label">Бренд</div>
+              <div class="input__field">
+                <select name="brand" data-placeholder="Любой">
+                  <option selected value="Bosch">Bosch</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="input">
+          <div class="input__label">Комментарий</div>
+          <div class="input__field">
+            <input type="text" name="comment" />
+          </div>
+        </div>
+        <div class="form__footer">
+          <div class="form__button">
+            <button class="btn" type="submit">Отправить</button>
+          </div>
+          <div class="form__footer-policy">
+            Нажимая кнопку «Отправить», я&nbsp;соглашаюсь с
+            <a href="#">политикой конфиденциальности</a>
+            и
+            <a href="#">пользовательским соглашением</a>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="is-hidden">
+
+      <form class="modal form" id="get-price" action="/ajax/form-feedback.php" method="post" data-app="form"
+        data-event="Feedback">
+
+        <input type="hidden" name="formname" value="Получить цену" />
+        <input type="hidden" name="referer" value="https://air-bosch.com" />
+        <input type="hidden" name="lang" value="ru" />
+        <input type="hidden" name="formid" value="FORM_GET_PRICE" />
+        <input type="hidden" name="model" value="" />
+
+        <div class="h3 form__title">Получить цену</div>
+        <div class="form__text">
+          Оставьте ваши контакты, наши менеджеры в&nbsp;скором времени свяжутся с&nbsp;вами.
+        </div>
+        <div class="input">
+          <div class="input__label">Имя <span>*</span></div>
+          <div class="input__field">
+            <input type="text" name="firstname" data-name="firstname" />
+            <p class="input__error">Это поле необходимо заполнить.</p>
+          </div>
+        </div>
+        <div class="form__row">
+          <div class="form__col">
+            <div class="input">
+              <div class="input__label">E-mail <span>*</span></div>
+              <div class="input__field">
+                <input type="email" name="email" data-name="email" />
+                <p class="input__error">Неверный или некорректный e-mail адрес</p>
+              </div>
+            </div>
+          </div>
+          <div class="form__col">
+            <div class="input">
+              <div class="input__label">Телефон <span>*</span></div>
+              <div class="input__field">
+                <input class="phone" type="tel" data-name="tel" name="phone" />
+                <p class="input__error">Неверный номер телефона</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="input">
+          <div class="input__label">Город/регион</div>
+          <div class="input__field">
+            <input type="text" name="city" />
+          </div>
+        </div>
+        <div class="input">
+          <div class="input__label">Комментарий</div>
+          <div class="input__field">
+            <input type="text" name="comment" />
+          </div>
+        </div>
+        <div class="form__footer">
+          <div class="form__button">
+            <button class="btn" type="submit">Отправить</button>
+          </div>
+          <div class="form__footer-policy">
+            Нажимая кнопку «Отправить», я&nbsp;соглашаюсь с
+            <a href="#">политикой конфиденциальности</a>
+            и
+            <a href="#">пользовательским соглашением</a>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="is-hidden">
+      <form class="modal form" id="request-success" action="./ajax/callback.json" method="get" data-event="Feedback">
+        <div class="modal__status-check">
+          <img src="./img/status-check.svg" alt="" />
+        </div>
+        <div class="h3 form__title">Спасибо!</div>
+        <div class="form__text">Наши менеджеры свяжутся с вами в ближайшее время.</div>
+      </form>
+    </div>
+
+
+
+    <!--div class="is-hidden">
+<form class="modal form" action="/ajax/form-feedback.php" method="post" data-app="form" data-event="Feedback">
+
+    <input type="hidden" name="formname" value="Обратная связь" />
+    <input type="hidden" name="referer" value="https://air-bosch.com" />
+    <input type="hidden" name="lang" value="ru" />
+    <input type="hidden" name="formid" value="FORM_FEEDBACK_CONTACTS" />
+
+    <div class="h3 form__title">Обратная связь111</div>
+    <div class="form__text">
+        Оставьте ваши контактные данные, и&nbsp;наш специалист свяжется с вами в течение 30 минут
+    </div>
+    <div class="form__row">
+        <div class="form__col">
+            <div class="input">
+                <div class="input__label">Имя</div>
+                <div class="input__field">
+                    <input
+                            type="text"
+                            name="firstname"
+                            data-validation='{"regex":["^[^\\d]+$","ig"],"maxlength":300,"messages":{"regex":"Поле может содержать только буквы и символы"}}'
+                            required />
+                </div>
+            </div>
+        </div>
+        <div class="form__col">
+            <div class="input">
+                <div class="input__label">Фамилия</div>
+                <div class="input__field">
+                    <input
+                            type="text"
+                            name="surname"
+                            data-validation='{"regex":["^[^\\d]+$","ig"],"maxlength":300,"messages":{"regex":"Поле может содержать только буквы и символы"}}'
+                            required />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="input">
+        <div class="input__label">E-mail</div>
+        <div class="input__field">
+            <input
+                    type="email"
+                    name="email"
+                    data-validation='{"regex":["^\\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}\\b$","i"],"maxlength":254,"messages":{"regex":"Неверный или некорректный e-mail адрес."}}'
+                    required />
+        </div>
+    </div>
+    <div class="input">
+        <div class="input__label">Телефон</div>
+        <div class="input__field">
+            <input type="tel" data-mask="+7(999) 999 99-99" name="tel" required />
+        </div>
+    </div>
+    <div class="input">
+        <div class="input__label">Комментарий</div>
+        <div class="input__field">
+            <textarea name="subject" data-validation='{"maxlength":300}' required></textarea>
+        </div>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="checkbox" name="checkbox" required /><i>
+                <svg>
+                    <use xlink:href="./img/sprite.svg#check"></use></svg></i
+            ><span>Разрешаю обработку <a href="#">персональных данных</a></span>
+        </label>
+    </div>
+    <div class="form__button">
+        <button class="btn" type="submit">Отправить</button>
+    </div>
+</form>
+</div-->
+
+    <div class="is-hidden">
+
+
+      <form class="modal form" id="callback" action="/ajax/form-feedback.php" method="post" data-app="form"
+        data-event="Feedback">
+
+        <input type="hidden" name="formname" value="Обратная связь" />
+        <input type="hidden" name="referer" value="https://air-bosch.com" />
+        <input type="hidden" name="lang" value="ru" />
+        <input type="hidden" name="formid" value="FORM_FEEDBACK_CONTACTS" />
+        <input type="hidden" name="middlename" value="" />
+
+        <div class="h3 form__title">
+          Обратная связь
+        </div>
+        <div class="form__text">
+          Оставьте ваши контактные данные, и&nbsp;наш специалист свяжется с&nbsp;вами
+        </div>
+
+        <div class="form__row">
+          <div class="form__col">
+            <div class="input">
+              <div class="input__label">
+                Имя <span>*</span>
+              </div>
+              <div class="input__field">
+                <input type="text" name="firstname"
+                  data-validation="{&quot;regex&quot;:[&quot;^[^\\d]+$&quot;,&quot;ig&quot;],&quot;maxlength&quot;:300,&quot;messages&quot;:{&quot;regex&quot;:&quot;Поле может содержать только буквы и символы&quot;}}"
+                  required />
+              </div>
+            </div>
+          </div>
+          <div class="form__col">
+            <div class="input">
+              <div class="input__label">
+                Фамилия <span>*</span>
+              </div>
+              <div class="input__field">
+                <input type="text" name="lastname"
+                  data-validation="{&quot;regex&quot;:[&quot;^[^\\d]+$&quot;,&quot;ig&quot;],&quot;maxlength&quot;:300,&quot;messages&quot;:{&quot;regex&quot;:&quot;Поле может содержать только буквы и символы&quot;}}"
+                  required />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="input">
+          <div class="input__label">
+            E-mail <span>*</span>
+          </div>
+          <div class="input__field">
+            <input type="email" name="email"
+              data-validation="{&quot;regex&quot;:[&quot;^\\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}\\b$&quot;,&quot;i&quot;],&quot;maxlength&quot;:254,&quot;messages&quot;:{&quot;regex&quot;:&quot;Неверный или некорректный e-mail адрес.&quot;}}"
+              required />
+          </div>
+        </div>
+        <div class="input">
+          <div class="input__label">
+            Город <span>*</span>
+          </div>
+          <div class="input__field">
+            <input type="text" name="city" value="Москва"
+              data-validation="{&quot;regex&quot;:[&quot;^[^\\d]+$&quot;,&quot;ig&quot;],&quot;maxlength&quot;:300,&quot;messages&quot;:{&quot;regex&quot;:&quot;Поле может содержать только буквы и символы&quot;}}"
+              required />
+          </div>
+        </div>
+        <div class="input">
+          <div class="input__label">
+            Телефон <span>*</span>
+          </div>
+          <div class="input__field">
+            <input type="tel" data-app="mask" data-mask="+7(999) 999 99-99" name="phone" required />
+          </div>
+        </div>
+        <div class="input">
+          <div class="input__label">
+            Комментарий <span>*</span>
+          </div>
+          <div class="input__field">
+            <textarea name="message" data-validation="{&quot;maxlength&quot;:300}" required></textarea>
+          </div>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="checkbox" required>
+            <i>
+              <svg>
+                <use xlink:href="https://air-bosch.com//frontend/build/images/sprites.svg#check"></use>
+              </svg>
+            </i>
+            <span>
+              Разрешаю обработку <a href="/privacy-policy/" target="_blank">персональных данных</a> <span>*</span>
+            </span>
+          </label>
+        </div>
+        <div class="form__button">
+          <button class="btn" type="submit">
+            Отправить
+          </button>
+        </div>
+      </form>
+    </div>
+    <div class="is-hidden">
+
+
+      <div class="modal form location" id="location" data-param="change-city">
+        <div class="h3 form__title">Выбор страны и города</div>
+        <div class="location__field input" data-app="select-location" data-ajax="/ajax/city-prompt.php">
+          <div class="input__field input__field--search">
+            <input class="search-text" onkeyup="findCity()" type="text" placeholder="Город или страна">
+            <div class="input-block__search-icon">
+              <svg>
+                <use xlink:href="./img/sprite.svg#search"></use>
+              </svg>
+            </div>
+            <button onclick="clearCity();" class="input-block__close-btn" type="button">
+              <svg>
+                <use xlink:href="./img/sprite.svg#close-big"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="location__list">
+          <ul class="search-results">
+            <li>
+              <div class="location__label">
+                <input checked class="visually-hidden" type="radio" name="location-city" value="19404" />
+                <span></span>
+              </div>
+              <a href="?change-city=19404">
+                <span>Москва</span>
+                <span>Россия</span>
+              </a>
+            </li>
+            <li>
+              <div class="location__label">
+                <input class="visually-hidden" type="radio" name="location-city" value="19484" />
+                <span></span>
+              </div>
+              <a href="?change-city=19484">
+                <span>Санкт&#8209;Петербург</span>
+                <span>Россия</span>
+              </a>
+            </li>
+            <li>
+              <div class="location__label">
+                <input class="visually-hidden" type="radio" name="location-city" value="19413" />
+                <span></span>
+              </div>
+              <a href="?change-city=19413">
+                <span>Нижний Новгород</span>
+                <span>Россия</span>
+              </a>
+            </li>
+            <li>
+              <div class="location__label">
+                <input class="visually-hidden" type="radio" name="location-city" value="19369" />
+                <span></span>
+              </div>
+              <a href="?change-city=19369">
+                <span>Казань</span>
+                <span>Россия</span>
+              </a>
+            </li>
+            <li>
+              <div class="location__label">
+                <input class="visually-hidden" type="radio" name="location-city" value="19417" />
+                <span></span>
+              </div>
+              <a href="?change-city=19417">
+                <span>Новосибирск</span>
+                <span>Россия</span>
+              </a>
+            </li>
+            <li>
+              <div class="location__label">
+                <input class="visually-hidden" type="radio" name="location-city" value="19337" />
+                <span></span>
+              </div>
+              <a href="?change-city=19337">
+                <span>Волгоград</span>
+                <span>Россия</span>
+              </a>
+            </li>
+            <li>
+              <div class="location__label">
+                <input class="visually-hidden" type="radio" name="location-city" value="19438" />
+                <span></span>
+              </div>
+              <a href="?change-city=19438">
+                <span>Самара</span>
+                <span>Россия</span>
+              </a>
+            </li>
+            <li>
+              <div class="location__label">
+                <input class="visually-hidden" type="radio" name="location-city" value="19432" />
+                <span></span>
+              </div>
+              <a href="?change-city=19432">
+                <span>Ростов&#8209;на&#8209;Дону</span>
+                <span>Россия</span>
+              </a>
+            </li>
+            <li>
+              <div class="location__label">
+                <input class="visually-hidden" type="radio" name="location-city" value="19449" />
+                <span></span>
+              </div>
+              <a href="?change-city=19449">
+                <span>Сочи</span>
+                <span>Россия</span>
+              </a>
+            </li>
+            <li>
+              <div class="location__label">
+                <input class="visually-hidden" type="radio" name="location-city" value="19443" />
+                <span></span>
+              </div>
+              <a href="?change-city=19443">
+                <span>Севастополь</span>
+                <span>Россия</span>
+              </a>
+            </li>
+            <li>
+              <div class="location__label">
+                <input class="visually-hidden" type="radio" name="location-city" value="19445" />
+                <span></span>
+              </div>
+              <a href="?change-city=19445">
+                <span>Симферополь</span>
+                <span>Россия</span>
+              </a>
+            </li>
+            <li>
+              <div class="location__label">
+                <input class="visually-hidden" type="radio" name="location-city" value="31923" />
+                <span></span>
+              </div>
+              <a href="?change-city=31923">
+                <span>Минск</span>
+                <span>Беларусь</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <script>
+        var current = null;
+
+        function clearCity() {
+          $('#location').find('.search-text').val('');
+          $.ajax({
+            type: 'GET',
+            url: '/ajax/city-prompt.php',
+            data: {
+              q: 'default'
+            },
+            dataType: "json",
+            processData: void 0,
+            contentType: void 0,
+            success: function (data) {
+              var cont = $('#location').find('.search-results');
+              cont.html('');
+              $('#location').find('.input-block__close-btn').removeClass('show');
+              for (i in data.results) {
+                appendItem(cont, appendItem(cont, data.results[i]));
+              }
+            }
+          })
+        }
+
+        function appendItem(cont, item) {
+          if (typeof item == 'undefined') return;
+          cont.append('<li>' +
+            '<div class="location__label">' +
+            '<input ' + (current == item.cid ? 'checked' : '') + ' class="visually-hidden" type="radio" name="location-city" value="' + item.cid + '" />' +
+            '<span></span>' +
+            '</div>' +
+            '<a href="?change-city=' + item.cid + '">' +
+            '<span>' + item.text + '</span>' +
+            '<span>' + item.country + '</span>' +
+            '</a>' +
+            '</li>');
+        }
+
+        function findCity() {
+
+          if (!current) current = $('#location').find('input:checked').val();
+
+          var str = $('#location').find('.search-text').val();
+          if (str.length == 0) {
+            //clearCity();
+            //return;
+          }
+
+          if (str.length < 3) return;
+
+          $.ajax({
+            type: 'GET',
+            url: '/ajax/city-prompt.php',
+            data: {
+              q: str
+            },
+            dataType: "json",
+            processData: void 0,
+            contentType: void 0,
+            success: function (data) {
+              var cont = $('#location').find('.search-results');
+              cont.html('');
+              $('#location').find('.input-block__close-btn').addClass('show');
+              for (i in data.results) {
+                appendItem(cont, data.results[i])
+              }
+            }
+          })
+        }
+      </script>
+
+
+    </div>
+    <a href="#" class="up" data-app="up"><svg>
+        <use xlink:href="./img/sprite.svg#mark"></use>
+      </svg></a>
+  </div>
+  <script data-skip-moving src="https://air-bosch.com//frontend/build/js/vendor.js?cache=1.07"></script>
+  <script data-skip-moving src="https://air-bosch.com//frontend/build/js/main.js?cache=1.07"></script>
+  <script data-skip-moving src="https://air-bosch.com//frontend/build/js/script.min.js?cache=1.07"></script>
+
+</body>
+
+</html>

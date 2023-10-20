@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+  <title>Поддержка клиентов Bosch - официальный сайт</title>
+  <meta name="description"
+    content="Информация для клиентов Bosch : гарантии, облачное управление, обслуживание и ремонт. Наша справочно-сервисная служба поможет решить любые задачи, связанные с технической поддержкой." />
+  <meta property="og:url" content="https://air-bosch.com/support/" />
+  <meta property="og:site_name" content="Bosch" />
+  <meta property="og:title" content="Поддержка клиентов Bosch - официальный сайт" />
+  <meta property="og:description"
+    content="Информация для клиентов Bosch : гарантии, облачное управление, обслуживание и ремонт. Наша справочно-сервисная служба поможет решить любые задачи, связанные с технической поддержкой." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/h/assets/img/share.jpg" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" href="/favicon.ico">
+  <!-- <link rel="stylesheet" href="/frontend/build/css/style.css?cache=1.07"> -->
+  <link rel="stylesheet" href="original/style.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+      m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+      m[i].l = 1 * new Date();
+      for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+      k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(94076883, "init", {
+      clickmap: true,
+      trackLinks: true,
+      accurateTrackBounce: true,
+      webvisor: true
+    });
+  </script>
+  <noscript>
+    <div><img src="https://mc.yandex.ru/watch/94076883" style="position:absolute; left:-9999px;" alt="" /></div>
+  </noscript>
+  <!-- /Yandex.Metrika counter -->
+
+  <script
+    type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Corporation","name":"Bosch","url":"https:\/\/air-bosch.com\/","logo":"https:\/\/air-bosch.com\/frontend\/build\/images\/logo.svg","sameAs":["https:\/\/vk.com\/daichiair","https:\/\/www.youtube.com\/channel\/UC7W3_lLzqY2BBYt_kuCRwXg"]}</script>
+
+
+  <div itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Air-Bosch">
+    <meta itemprop="description"
+      content="Air-Bosch - климатическое оборудование для дома, квартиры и офисов. Современные технологии, онлайн-управление, эффективный расход электроэнергии и долгий срок службы.">
+    <meta itemprop="image" content="https://air-bosch.com/frontend/build/img/logo.svg">
+    <meta itemprop="telephone" content="+7 (495) 737‑37‑33">
+    <span itemprop="email" content="info@daichi.ru">
+
+      <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <meta itemprop="streetAddress" content="Звенигородское ш. д 9/27">
+        <meta itemprop="addressLocality" content="Москва">
+        <meta itemprop="addressRegion" content="Москва">
+      </div>
+  </div>
+
+
+
+  <div class="main">
+    <header class="header anime" data-app="header">
+      <div class="header__line"></div>
+      <div class="container">
+        <div class="header__container">
+          <div class="header__top">
+            <div class="header__logo">
+              <a href="/"><img src="/frontend/build/img/logo.svg" alt="" /></a>
+            </div>
+
+
+            <div class="header__top-right for-desktop">
+
+
+
+              <div class="header__top-right-catalog">
+                <button class="header__catalog-btn"><span></span>Каталог</button>
+                <div class="header__catalog-drop">
+                  <ul class="header__menu__drop__menu">
+                    <li><a href="/catalog/bytovye-split-sistemy/">Бытовые сплит&#8209;системы</a></li>
+                    <li><a href="/catalog/sistemy-vrf/">VRF системы</a></li>
+                  </ul>
+                </div>
+              </div>
+              <script>
+                function openSearch() {
+                  var val = $('[name=q]').val();
+                  if (val.length > 0) {
+                    $('.header__search__close').addClass('show');
+                    if (val.length >= 3) {
+                      $.ajax({
+                        type: 'GET',
+                        url: '/ajax/search-items.php',
+                        data: {
+                          q: val
+                        },
+                        dataType: "json",
+                        processData: void 0,
+                        contentType: void 0,
+                        success: function (data) {
+                          if (data && data.results && data.results.length > 0) {
+                            $('.header__search-result-list').html('');
+                            for (i in data.results) {
+                              var item = data.results[i];
+                              $('.header__search-result-list').append('<li><a onclick="makeSearch(this)" href="javascript: void(0);">' + item.NAME + '</a></li>');
+                            }
+                            $('.header__search-result').addClass('show');
+                          }
+                        }
+                      })
+                    }
+                  }
+                  else {
+                    closeSearch();
+                  }
+                }
+
+                function makeSearch(href) {
+                  var q = $(href).html();
+                  $('.header__search-result').removeClass('show');
+                  document.location.href = '/search/?q=' + q;
+                }
+
+                function closeSearch() {
+                  $('.header__search-result').removeClass('show');
+                  $('.header__search__close').removeClass('show');
+                  $('[name=q]').val('');
+                }
+              </script>
+              <form class="header__search visible" action="/search/" data-app="form" method="get" data-type="submit">
+                <input autocomplete="off" onkeyup="openSearch()" class="header__search__field" type="text" name="q"
+                  placeholder="Поиск по сайту"
+                  data-validation='{"maxlength":300,"messages":{"required":"Введите поисковый запрос"}}' required />
+                <button class="header__search__submit" type="submit">
+                  <svg>
+                    <use xlink:href="/frontend/build/img/sprite.svg#search"></use>
+                  </svg>
+                </button>
+                <button onclick="closeSearch();" class="header__search__close" type="button">
+                  <svg>
+                    <use xlink:href="/frontend/build/img/sprite.svg#close-big"></use>
+                  </svg>
+                </button>
+                <div class="header__search-result">
+                  <ul class="header__search-result-list">
+                    <li><a href="#">1. Наружные блоки для систем VRF</a></li>
+                    <li><a href="#">MDCI — системы Mini VRF</a></li>
+                  </ul>
+                </div>
+              </form>
+            </div>
+
+            <a class="header__top-buy-btn btn btn-m for-desktop" href="/where-to-buy/">Где купить</a>
+
+            <button class="header__search-btn for-mobile">
+              <svg>
+                <use xlink:href="/frontend/build/img/sprite.svg#search"></use>
+              </svg>
+            </button>
+            <button class="header__burger for-mobile"><i></i><i></i><i></i></button>
+
+          </div>
+
+
+
+          <div class="header__bottom for-desktop">
+
+            <a class="header__bottom-location" href="#location" data-fancybox>
+              <svg>
+                <use xlink:href="/frontend/build/img/sprite.svg#location"></use>
+              </svg>
+              <span>Москва</span>
+            </a>
+            <ul class="header__menu for-desktop">
+              <li><a href="/about-brand/">О бренде</a></li>
+              <li><a href="/for-partners/">Партнёрам</a></li>
+              <li><a href="/support/">Поддержка</a></li>
+              <li><a href="/contacts/">Контакты</a></li>
+            </ul>
+            <a class="header__bottom-tel" href="tel:88002000005">
+              <svg>
+                <use xlink:href="/frontend/build/img/sprite.svg#tel"></use>
+              </svg>
+              8 800 200 00 05 </a>
+          </div>
+          <div class="modal header__location for-desktop">
+            <div class="h3 form__title">Ваш город — Москва?</div>
+            <div class="modal__footer">
+              <a class="btn-secondary" href="#location" data-fancybox>Выбрать другой</a>
+              <button class="btn header__location__confirm" type="button">Верно</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="mobile-menu for-mobile" data-app="mobile-menu">
+      <div class="mobile-menu__list">
+        <ul>
+          <li>
+            <a href="/catalog/bytovye-split-sistemy/">Каталог</a>
+            <ul>
+              <li><a href="/catalog/bytovye-split-sistemy/">Бытовые сплит‑системы</a></li>
+              <li><a href="/catalog/sistemy-vrf/">VRF системы</a></li>
+            </ul>
+          </li>
+          <li><a href="/about-brand/">О бренде</a></li>
+          <li><a href="/for-partners/">Партнёрам</a></li>
+          <li><a href="/support/">Поддержка</a></li>
+          <li><a href="/contacts/">Контакты</a></li>
+          <li><a href="/where-to-buy/">Где купить</a></li>
+        </ul>
+      </div>
+      <div class="mobile-menu__support">
+        <div class="mobile-menu__support__location">
+          <a href="#location" data-fancybox>
+            <svg>
+              <use xlink:href="/frontend/build/img/sprite.svg#location"></use>
+            </svg>
+            Москва </a>
+        </div>
+        <div class="mobile-menu__support__phone"><a href="tel:88002000005">8 800 200 00 05</a></div>
+        <div class="mobile-menu__support__text">Служба поддержки</div>
+      </div>
+      <div class="mobile-menu__button">
+        <a class="btn btn-m" href="#callback" data-fancybox>Обратная связь</a>
+      </div>
+    </div>
+    <div class="mobile-menu mobile-menu--search for-mobile" data-app="mobile-menu">
+      <div class="mobile-menu__search-header">
+        <form class="mobile-menu__search-form" action="search.html" method="get" data-type="submit">
+          <button class="mobile-menu__search-back" type="button">
+            <svg>
+              <use xlink:href="/frontend/build/img/sprite.svg#arrow-left"></use>
+            </svg>
+          </button>
+          <input class="mobile-menu__search-input" type="text" name="q" placeholder="Поиск по сайту"
+            data-validation='{"maxlength":300,"messages":{"required":"Введите поисковый запрос"}}' required />
+          <button class="header__search__close" type="button">
+            <svg>
+              <use xlink:href="/frontend/build/img/sprite.svg#close-big"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+      <div class="mobile-menu__search-popular">
+        <p class="mobile-menu__search-popular-title">Популярные запросы</p>
+        <ul>
+          <li><a href="#">Наружные блоки для систем VRF</a></li>
+          <li><a href="#">MDCI — системы Mini VRF</a></li>
+          <li><a href="#">Кассетные блоки для систем VRF</a></li>
+          <li><a href="#">Канальные блоки для систем VRF</a></li>
+          <li><a href="#">Консольные блоки для систем VRF</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+
+    <div class="content">
+      <div class="container">
+
+        <div class="breadcrumbs">
+          <ul>
+            <li>
+              <a href="/" title="Главная">
+                Главная </a>
+            </li>
+            <li title="Поддержка">
+              Поддержка </li>
+          </ul>
+        </div>
+
+        <script type="application/ld+json">
+{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"\u0413\u043b\u0430\u0432\u043d\u0430\u044f","item":"https:\/\/air-bosch.com\/"},{"@type":"ListItem","position":2,"name":"\u041f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0430","item":""}]}</script>
+
+        <h1 class="page-title">Регистрация гарантийного талона</h1>
+
+        <div class="code-registration__bar">
+          <div class="code-registration__bar-inner" style="width: 66.6%"></div>
+        </div>
+
+
+        <div class="code-registration__form-block">
+          <div class="code-registration__form">
+
+            <form>
+              <h2 class="code-registration__form-title">
+                Для завершения регистрации укажите ваши контактные данные
+              </h2>
+              <div class="code-registration__form-body">
+                <div class="code-registration__form-row">
+                  <div class="input">
+                    <div class="input__label">Email</div>
+                    <div class="input__field">
+                      <input id="email" type="email" name="email" placeholder="user@email.ru">
+                      <p class="input_error">Укажите корректный Email</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="code-registration__form-row">
+                  <div class="input">
+                    <div class="input__label">Город</div>
+                    <div class="input__field">
+                      <input id="city" type="text" name="city" placeholder="">
+                      <p class="input_error">Укажите город</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="code-registration__buttons">
+                <a href="#" class="btn-secondary">
+                  <span>Назад</span>
+                </a>
+                <button type="submit" class="btn">Завершить <span class="is--for-desktop">регистрацию</span></button>
+              </div>
+
+              <div class="code-registration__policy">
+                Нажимая на кнопку «Завершить регистрацию», я&nbsp;соглашаюсь с <a href="#">обработкой персональных
+                  данных</a> и <a href="#">договором оферты</a>
+              </div>
+            </form>
+          </div>
+
+          <div class="code-registration__form-device">
+            <div class="code-registration__form-device-image">
+              <img src="img/warranty-code-device.png" alt="">
+            </div>
+            <div class="code-registration__form-device-info">
+              <div class="code-registration__form-device-info-item">
+                <div class="code-registration__form-device-info-inner">
+                  <span class="code-registration__form-device-info-title">
+                    Артикул
+                  </span>
+                  <span class="code-registration__form-device-info-value">
+                    Bosch MSAG1-07HRN1-I/MSAG1-07HRN1-O
+                  </span>
+                </div>
+              </div>
+              <div class="code-registration__form-device-info-item">
+                <div class="code-registration__form-device-info-inner">
+                  <span class="code-registration__form-device-info-title">
+                    Гарантийный код
+                  </span>
+                  <span class="code-registration__form-device-info-value">
+                    00873-43426-35421
+                  </span>
+                </div>
+              </div>
+              <div class="code-registration__form-device-info-item">
+                <div class="code-registration__form-device-info-inner">
+                  <span class="code-registration__form-device-info-title">
+                    Дата покупки
+                  </span>
+                  <span class="code-registration__form-device-info-value">
+                    03.09.2021
+                  </span>
+                </div>
+
+                <span class="code-registration__form-device-info-divider"></span>
+
+                <div class="code-registration__form-device-info-inner">
+                  <span class="code-registration__form-device-info-title">
+                    Окончание гарантии
+                  </span>
+                  <span class="code-registration__form-device-info-value">
+                    03.09.2024
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container">
+          <div class="footer__left">
+            <div class="footer__contacts">
+              <div class="footer__logo">
+                <a href="/">
+                  <img src="/frontend/build/img/logo.svg" alt="" />
+                </a>
+              </div>
+              <div class="footer__contacts__content">
+                <div class="footer__phone">
+                  <div class="footer__phone__number">
+                    <a href="tel:88002000005">
+                      8 800 200 00 05 </a>
+                  </div>
+                  <div class="footer__phone__label">
+                    Служба поддержки
+                  </div>
+                </div>
+                <div class="footer__callback">
+                  <a href="#callback" data-fancybox>
+                    <svg>
+                      <use xlink:href="/frontend/build/img/sprite.svg#comment"></use>
+                    </svg>
+                    Обратная связь
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer__right">
+            <div class="footer__menu">
+              <ul>
+                <li>
+                  <a href="/support/">
+                    Поддержка
+                  </a>
+                </li>
+                <li>
+                  <a href="/where-to-buy/">
+                    Где купить
+                  </a>
+                </li>
+                <li>
+                  <a href="/contacts/">
+                    Контакты
+                  </a>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <a href="/for-partners/">
+                    Для партнеров
+                  </a>
+                </li>
+                <li>
+                  <a href="/news/">
+                    Новости
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__catalog">
+              <div class="footer__catalog__title">
+                <a href="/catalog/">
+                  Каталог
+                </a>
+              </div>
+              <ul class="footer__catalog__list">
+                <li>
+                  <a href="/catalog/bytovye-split-sistemy/">
+                    Бытовые сплит&#8209;системы </a>
+                </li>
+                <li>
+                  <a href="/catalog/sistemy-vrf/">
+                    VRF системы </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer__container">
+          <ul class="footer__list footer__list--list">
+            <li class="for-desktop">
+              &copy; Bosch 2023 </li>
+            <li>
+              <a href="/privacy-policy/">
+                Политика конфиденциальности
+              </a>
+            </li>
+            <li>
+              <a href="/user-agreement/">
+                Пользовательское соглашение
+              </a>
+            </li>
+          </ul>
+          <ul class="footer__list footer__list--social">
+            <li>
+              <a href="https://vk.com/daichiair" target="_blank" rel="nofollow">
+                Вконтакте </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UC7W3_lLzqY2BBYt_kuCRwXg" target="_blank" rel="nofollow">
+                Youtube </a>
+            </li>
+          </ul>
+          <div class="footer__dev">
+            <span class="for-mobile">© Daichi 2021.</span>
+            <!--a href="https://itech-group.ru" target="_blank" rel="nofollow">
+                Разработано в ITECH
+            </a-->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a href="#" class="up" data-app="up"><svg>
+        <use xlink:href="/frontend/build/img/sprite.svg#mark"></use>
+      </svg></a>
+  </div>
+  <script data-skip-moving src="/frontend/build/js/vendor.js?cache=1.07"></script>
+  <script data-skip-moving src="/frontend/build/js/main.js?cache=1.07"></script>
+  <script data-skip-moving src="/frontend/build/js/script.min.js?cache=1.07"></script>
+
+  <script src="js/vendor.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

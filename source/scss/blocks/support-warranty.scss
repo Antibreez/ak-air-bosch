@@ -1,0 +1,9 @@
+.support-warranty__item {
+  &:first-child {
+    .support-warranty__link-text {
+      @media (max-width: 767px) {
+        max-width: 190px;
+      }
+    }
+  }
+}
